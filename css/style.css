@@ -1,0 +1,152 @@
+/*Regular version*/
+@font-face {
+  font-family: 'AlrightSansLT';
+  src:  
+      local('AlrightSansLT Font'),
+      local('AlrightSansLT-Font'),
+      url('fonts/AlrightSans-Light.eot')
+      format('opentype');
+}
+
+/*bold version*/
+@font-face {
+  font-family: 'AlrightSansLT';
+  src: 
+    local('AlrightSansLT Font Bold'),
+    local('AlrightSansLT-Font-Bold'),
+    url('fonts/AlrightSans-Bold.otf') 
+    format('opentype');
+  font-weight: bold;
+}
+
+/*Medium version*/
+@font-face {
+  font-family: 'AlrightSansLT';
+  src: 
+    local('AlrightSansLT Font Medium'),
+    local('AlrightSansLT-Font-Medium'),
+    url('fonts/AlrightSans-Medium.otf') 
+    format('opentype');
+  font-weight: 500;
+}
+/*Regular version*/
+@font-face {
+  font-family: 'TiemposHeadline';
+  src:  
+      local('TiemposHeadline Font'),
+      local('TiemposHeadline-Font'),
+      url('fonts/TiemposText-Regular.eot')
+      format('opentype');
+}
+
+/*Medium version*/
+@font-face {
+  font-family: 'TiemposHeadline';
+  src: 
+    local('TiemposHeadline Font Medium'),
+    local('TiemposHeadline-Font-Medium'),
+    url('fonts/AlrightSans-Medium.otf') 
+    format('opentype');
+  font-weight: 500;
+}
+
+
+html, body {
+  background-color: #ffffff;
+  font-family: 'AlrightSansLT', 'TiemposHeadline', sans-serif;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto; 
+}
+.content .container {
+    margin: 3rem auto !important;
+}
+
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.bitmap {
+  width: 100%;
+}
+
+.justify-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff; 
+}
+
+.alt-background {
+  background: #f7f8f9 !important;
+
+}
+
+.bg-secondary {
+  background-color: #ec5447 !important; 
+}
+
+.social {
+  padding: 0;
+}
+
+.social li {
+  display: inline-block; 
+}
+
+.social li a, .social li svg {
+  display: block;
+  width: 2.2em;
+  height: 2.2em;
+  margin: 0 .1em;
+  text-align: center;
+  text-decoration: none;
+  background: none;
+  color: #fff;
+  font-size: 1.1em;
+  line-height: 2em; }
+
+
+.content {
+  background: #fff;
+  padding-bottom: 0.1rem; }
+  .content .container {
+    margin: 7rem auto 5rem auto; }
+  
+
+
+.tip-action-table {
+  padding: 4em 0;
+  /*background: #fff;*/
+}
+
+.tip-action-table .col-tip-action-table {
+  background: #fff;
+  padding: 0;
+  padding-bottom: 2rem;
+  border-radius: .3rem; 
+}
+
+.blog-table {
+  padding: 3em 0;
+  /*background: #fff;*/
+}
+
+.blog-table .col-tip-action-table {
+  /*background: #fff;*/
+  padding: 0;
+  padding-bottom: 2rem;
+  border-radius: .3rem; 
+}
+
